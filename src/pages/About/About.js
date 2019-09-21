@@ -34,7 +34,6 @@ class About extends Component {
                         </Card>
                     </Col>
                 </Row>
-
             </Container>
         );
     };

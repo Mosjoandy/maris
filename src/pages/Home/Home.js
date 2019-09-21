@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 class Home extends Component {
+
+
     render() {
+       
+
         return (
             <Container>
                 <Row>
@@ -14,8 +18,19 @@ class Home extends Component {
 
                             <br />
                             <br />
-                            
-                            Video Embed here
+
+                            <div className="homeVideoEmbed">
+                                <iframe
+                                    title="homeVideo"
+                                    src="https://player.vimeo.com/video/336761792?title=0&byline=0&portrait=0"
+                                    className="homeVideoiframe"
+                                    width="100%"
+                                    height="100%"
+                                    frameBorder="0"
+                                    allow="autoplay; fullscreen"
+                                    allowFullScreen>
+                                </iframe>
+                            </div>
                         </Card>
                     </Col>
                 </Row>
