@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Card, Button, Form } from 'react-bootstrap';
+import firebase from '../../utils/firebase';
 
 class Contact extends Component {
 
@@ -27,14 +28,14 @@ class Contact extends Component {
         console.log("Subject: " + this.state.subject);
         console.log("Message: " + this.state.message);
 
-        // const contact = firebase.database().ref("contact");
-        // const info = {
-        //     name: this.state.name,
-        //     email: this.state.email,
-        //     subject: this.state.subject,
-        //     message: this.state.message,
-        // };
-        // contact.push(info);
+        const contact = firebase.database().ref("contact");
+        const info = {
+            name: this.state.name,
+            email: this.state.email,
+            subject: this.state.subject,
+            message: this.state.message,
+        };
+        contact.push(info);
 
         this.setState({ submitted: true });
         event.target.reset();
