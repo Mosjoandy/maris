@@ -53,51 +53,10 @@ class Illustrations extends Component {
                                     </Row>
                                 </Col>
                             </Row>
-
-
                             {/* end here */}
                         </Card.Body>
                     </Card>
-
-
-
-
-
-
                 </Row>
-
-
-
-
-                <Row>
-                    <Col>
-                        <Card>
-                            More pictures to put in1
-        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Card>
-                            More pictures to put in2
-        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Card>
-                            More pictures to put in3
-        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Card>
-                            More pictures to put in4
-        </Card>
-                    </Col>
-                </Row>
-
             </Container>
         );
     };
