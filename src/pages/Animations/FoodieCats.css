@@ -1,0 +1,15 @@
+.carousel-control-next-icon {
+    filter: invert(150%);
+}
+
+.carousel-control-prev-icon {
+    filter: invert(150%);
+}
+
+.carousel-indicators li {
+    filter: invert(150%);  
+}
+
+.carousel-indicators .active {
+    filter: invert(150%);
+}

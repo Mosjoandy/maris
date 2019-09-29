@@ -5,20 +5,39 @@ class Animations extends Component {
     render() {
         return (
             <Container>
-                <Row>
-                    <Col>
-                        <Card bg="light" className="text-center">
-                         Not foodiecats
-                            <br />
-                           
-                            <br />
-                            <br />
+                <Row className="justify-content-md-center">
+                    <Col xl={8}>
+                      
+                                <Card bg="light" className="text-center">
+                                    <Card.Header>
+                                        <h1>Animations</h1>
+                                    </Card.Header>
+                                    <Card.Body>
 
-                            Video Embed here
-                        </Card>
+                                        <iframe
+                                            width="100%"
+                                            height="500"
+                                            src="https://www.youtube-nocookie.com/embed/U-prfwYh6Ik?controls=0"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen>
+                                        </iframe>
+
+                                        <br />
+                                        <br />
+
+                                        <iframe width="100%"
+                                            height="500"
+                                            src="https://www.youtube-nocookie.com/embed/LwM8N8LDtIw?controls=0"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen>
+                                        </iframe>
+                                    </Card.Body>
+                                </Card>
+                        
                     </Col>
                 </Row>
-
             </Container>
         );
     };
