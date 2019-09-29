@@ -8,9 +8,10 @@ class Animations extends Component {
                 <Row>
                     <Col>
                         <Card bg="light" className="text-center">
-                         Not foodiecats
+                            Foodie Cats
                             <br />
-                           
+                            I animated several shots on this project. It was animated in Adobe Animate and is the first animated short of the Junior Giant Foodiecats series to be made in 2D.
+
                             <br />
                             <br />
 
