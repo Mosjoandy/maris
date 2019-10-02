@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Carousel, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import './FoodieCats.css'
 
 
@@ -14,9 +14,79 @@ class Animations extends Component {
                                 <h1>Foodie Cats</h1>
                             </Card.Header>
                             <Card.Body>
-                            <h4> I animated several shots on this project. It was animated in Adobe Animate and is the first animated short of the Junior Giant Foodiecats series to be made in 2D.
-</h4>
-                                <Carousel fade={true} interval={null}>
+                                <h4> I animated several shots on this project. It was animated in Adobe Animate and is the first animated short of the Junior Giant Foodiecats series to be made in 2D.</h4>
+                            </Card.Body>
+                            <Card.Body>
+                                <iframe
+                                    className="iFrameAnimations"
+                                    title="foodieCats1"
+                                    src="https://www.youtube-nocookie.com/embed/gnznvGYELXM?controls=0"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+                                </iframe>
+                                <br />
+                                <br />
+
+                                <iframe
+                                    className="iFrameAnimations"
+                                    title="foodieCats2"
+                                    src="https://www.youtube-nocookie.com/embed/1q8_8wYB_J8?controls=0"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+                                </iframe>
+                                <br />
+                                <br />
+
+                                <iframe
+                                    className="iFrameAnimations"
+                                    title="foodieCats3"
+                                    src="https://www.youtube-nocookie.com/embed/c0bQUVJBpIY?controls=0"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+                                </iframe>
+                                <br />
+                                <br />
+
+                                <iframe
+                                    className="iFrameAnimations"
+                                    title="foodieCats4"
+                                    src="https://www.youtube-nocookie.com/embed/lJIJNkI0vjk?controls=0"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+                                </iframe>
+                                <br />
+                                <br />
+
+                                <iframe
+                                    className="iFrameAnimations"
+                                    title="foodieCats5"
+                                    src="https://www.youtube-nocookie.com/embed/x4hDc6voPm8?controls=0"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+                                </iframe>
+                                <br />
+                                <br />
+
+                                <iframe
+                                    className="iFrameAnimations"
+                                    title="foodieCats6"
+                                    src="https://www.youtube-nocookie.com/embed/Yj9ig_2UUw0?controls=0"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+                                </iframe>
+                                <br />
+                                <br />
+
+                                <iframe
+                                    className="iFrameAnimations"
+                                    title="foodieCats7"
+                                    src="https://www.youtube-nocookie.com/embed/WahfSn_zT74?controls=0"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+                                </iframe>
+                            </Card.Body>
+
+                            {/* <Carousel fade={true} interval={null}>
                                     <Carousel.Item>
                                         <iframe
                                             width="100%"
@@ -56,7 +126,7 @@ class Animations extends Component {
                                             src="https://www.youtube-nocookie.com/embed/lJIJNkI0vjk?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
                                             frameBorder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen>
+                                        >
                                         </iframe>
                                     </Carousel.Item>
                                     <Carousel.Item>
@@ -66,7 +136,7 @@ class Animations extends Component {
                                             src="https://www.youtube-nocookie.com/embed/x4hDc6voPm8?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
                                             frameBorder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen>
+                                        >
                                         </iframe>
                                     </Carousel.Item>
                                     <Carousel.Item>
@@ -76,7 +146,7 @@ class Animations extends Component {
                                             src="https://www.youtube-nocookie.com/embed/Yj9ig_2UUw0?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
                                             frameBorder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen>
+                                        >
                                         </iframe>
                                     </Carousel.Item>
                                     <Carousel.Item>
@@ -86,93 +156,11 @@ class Animations extends Component {
                                             src="https://www.youtube-nocookie.com/embed/WahfSn_zT74?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
                                             frameBorder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen>
+                                        >
                                         </iframe>
                                     </Carousel.Item>
 
-                                </Carousel>
-                            </Card.Body>
-
-
-                            {/* <Card.Body>
-                                I animated several shots on this project. It was animated in Adobe Animate and is the first animated short of the Junior Giant Foodiecats series to be made in 2D.
-
-                                <iframe
-                                    width="100%"
-                                    height="500"
-                                    src="https://www.youtube-nocookie.com/embed/gnznvGYELXM?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
-                                <br />
-                                <br />
-
-                                <iframe
-                                    width="100%"
-                                    height="500"
-                                    src="https://www.youtube-nocookie.com/embed/1q8_8wYB_J8?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
-                                <br />
-                                <br />
-
-                                <iframe
-                                    width="100%"
-                                    height="500"
-                                    src="https://www.youtube-nocookie.com/embed/c0bQUVJBpIY?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
-                                <br />
-                                <br />
-
-                                <iframe
-                                    width="100%"
-                                    height="500"
-                                    src="https://www.youtube-nocookie.com/embed/lJIJNkI0vjk?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
-                                <br />
-                                <br />
-
-                                <iframe
-                                    width="100%"
-                                    height="500"
-                                    src="https://www.youtube-nocookie.com/embed/x4hDc6voPm8?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
-                                <br />
-                                <br />
-
-                                <iframe
-                                    width="100%"
-                                    height="500"
-                                    src="https://www.youtube-nocookie.com/embed/Yj9ig_2UUw0?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
-                                <br />
-                                <br />
-
-                                <iframe
-                                    width="100%"
-                                    height="500"
-                                    src="https://www.youtube-nocookie.com/embed/WahfSn_zT74?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
-                            </Card.Body> */}
-
+                            </Carousel> */}
                         </Card>
                     </Col>
                 </Row>

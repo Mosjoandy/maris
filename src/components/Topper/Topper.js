@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import "./Topper.css";
 
@@ -9,16 +9,12 @@ class Topper extends Component {
             <Container className="text-center">
                 <Row>
                     <Col>
-                        <Card bg="primary">
-                            Marisa Franco
-                        </Card>
+                        <h1>Marisa Franco</h1>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <Card bg="danger">
-                            2D Animator
-                        </Card>
+                        <h1>Animator</h1>
                     </Col>
                 </Row>
             </Container>

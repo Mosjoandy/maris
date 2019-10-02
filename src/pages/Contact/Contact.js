@@ -45,86 +45,92 @@ class Contact extends Component {
         return (
             <Container>
                 <Row>
-                    <Col xl={4}>
+                    <Col xl={12}>
                         <Card>
-                            Email: m.anjelica.f@gmail.com
-                    </Card>
-                    </Col>
-                    <Col xl={4}>
-                        <Card>
-                            Phone Number: 209-623-8738
-                    </Card>
-                    </Col>
-                    <Col xl={4}>
-                        <Card>
-                            Address:<br />
-                            3460 Carter Dr. Unit 205<br />
-                            South San Francisco, CA<br />
-                            94080<br />
+                            <Card.Body>
+                                <Row className="justify-content-md-center">
+                                    <Col xl={4}>
+                                        <Card border="none">
+                                            <Card.Body>
+                                                Email: m.anjelica.f@gmail.com
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={4}>
+                                        <Card>
+                                            <Card.Body>
+                                                Phone Number: 209-623-8738
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+
+                                </Row>
+
+                                <Row>
+                                    {!this.state.submitted ?
+                                        (
+                                            <Col>
+                                                <Row>
+                                                    <Col>
+                                                        <Form onSubmit={this.handleSubmit}>
+                                                            <Form.Row>
+                                                                <Col xl={6}>
+                                                                    <Form.Control
+                                                                        placeholder="First name"
+                                                                        type="name"
+                                                                        name="name"
+                                                                        onChange={this.handleChange}
+                                                                        required />
+                                                                    <Form.Control
+                                                                        placeholder="Email"
+                                                                        type="email"
+                                                                        name="email"
+                                                                        onChange={this.handleChange}
+                                                                        required />
+                                                                    <Form.Control
+                                                                        placeholder="Subject"
+                                                                        type="subject"
+                                                                        name="subject"
+                                                                        onChange={this.handleChange}
+                                                                        required />
+                                                                </Col>
+                                                                <Col xl={6}>
+                                                                    <Form.Control
+                                                                        placeholder="Message"
+                                                                        as="textarea"
+                                                                        rows="4"
+                                                                        type="message"
+                                                                        name="message"
+                                                                        onChange={this.handleChange}
+                                                                        required />
+                                                                </Col>
+                                                            </Form.Row>
+                                                            <Button variant="success" type="submit" value="Submit" className="float-right">
+                                                                Send
+                                            </Button>
+                                                        </Form>
+                                                    </Col>
+                                                </Row>
+                                            </Col>
+
+                                        )
+                                        :
+                                        (
+                                            <Col>
+                                                <Card bg="primary" className="text-center">
+                                                    <p>
+                                                        Message Received
+                                    </p>
+                                                </Card>
+                                            </Col>
+                                        )
+                                    }
+                                </Row>
+                            </Card.Body>
                         </Card>
                     </Col>
                 </Row>
 
-                <Row>
-                    {!this.state.submitted ?
-                        (
-                            <Col>
-                                <Row>
-                                    <Col>
-                                        <Form onSubmit={this.handleSubmit}>
-                                            <Form.Row>
-                                                <Col xl={6}>
-                                                    <Form.Control
-                                                        placeholder="First name"
-                                                        type="name"
-                                                        name="name"
-                                                        onChange={this.handleChange}
-                                                        required />
-                                                    <Form.Control
-                                                        placeholder="Email"
-                                                        type="email"
-                                                        name="email"
-                                                        onChange={this.handleChange}
-                                                        required />
-                                                    <Form.Control
-                                                        placeholder="Subject"
-                                                        type="subject"
-                                                        name="subject"
-                                                        onChange={this.handleChange}
-                                                        required />
-                                                </Col>
-                                                <Col xl={6}>
-                                                    <Form.Control
-                                                        placeholder="Message"
-                                                        as="textarea"
-                                                        rows="4"
-                                                        type="message"
-                                                        name="message"
-                                                        onChange={this.handleChange}
-                                                        required />
-                                                </Col>
-                                            </Form.Row>
-                                            <Button variant="success" type="submit" value="Submit" className="float-right">
-                                                Send
-                                            </Button>
-                                        </Form>
-                                    </Col>
-                                </Row>
-                            </Col>
-
-                        )
-                        :
-                        (
-                            <Col>
-                                <Card bg="primary" className="text-center">
-                                    <p>
-                                      Message Received
-                                    </p>
-                                </Card>
-                            </Col>
-                        )
-                    }
-                </Row>
             </Container>
         );
     };

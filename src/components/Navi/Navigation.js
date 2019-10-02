@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Navbar, NavDropdown, NavLink, Nav } from 'react-bootstrap';
+import { Container, Navbar, NavDropdown, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
 class Navigation extends Component {
@@ -32,9 +32,6 @@ class Navigation extends Component {
                                     </Link> */}
                                 </NavDropdown.Item>
                             </NavDropdown>
-
-
-
 
                             <Nav.Item>
                                 <Link to="/illustrations" id="navButtons" className={window.location.pathname === "/illustrations" ? "nav-link active" : "nav-link"}>
