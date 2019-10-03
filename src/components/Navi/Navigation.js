@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Container, Navbar, NavDropdown, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
+import "./Navigation.css";
 
 class Navigation extends Component {
     render() {
         return (
             <Container>
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar collapseOnSelect expand="lg" className="navigationText" variant="dark">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
                         <Nav activeKey="/home">
@@ -20,13 +21,11 @@ class Navigation extends Component {
                             {/* Add drop down here */}
                             <NavDropdown title="Animations" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="/animations">Animations
-                                
                                     {/* <Link to="/animations" id="navButtons" className={window.location.pathname === "/animations" ? "nav-link active" : "nav-link"}>
                                         Animations
                                     </Link> */}
                                 </NavDropdown.Item>
                                 <NavDropdown.Item href="/FoodieCats">FoodieCats
-                                    
                                     {/* <Link to="/animations" id="navButtons" className={window.location.pathname === "/animations" ? "nav-link active" : "nav-link"}>
                                         Animations
                                     </Link> */}

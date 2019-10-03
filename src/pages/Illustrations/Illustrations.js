@@ -10,7 +10,7 @@ class Illustrations extends Component {
                         <Card>
                             <Card.Body>
                                 <Row>
-                                    <Col xl={12} bg="danger" >
+                                    <Col xl={12}>
                                         <Row>
                                             <Col xl={6}>
                                                 <Image fluid src={require("../../components/images/illustration1.jpg")} alt="grassyRobo" />
@@ -26,7 +26,7 @@ class Illustrations extends Component {
                                 </Row>
 
                                 <Row>
-                                    <Col xl={12} bg="danger" >
+                                    <Col xl={12}>
                                         <Row>
                                             <Col xl={12}>
                                                 <Image fluid src={require("../../components/images/illustration2.jpg")} alt="wavingLady" />
@@ -36,7 +36,7 @@ class Illustrations extends Component {
                                 </Row>
 
                                 <Row>
-                                    <Col xl={12} bg="danger" >
+                                    <Col xl={12}>
                                         <Row>
                                             <Col xl={12}>
                                                 <Image fluid src={require("../../components/images/illustration3.jpg")} alt="gaspingLady" />
@@ -46,7 +46,7 @@ class Illustrations extends Component {
                                 </Row>
 
                                 <Row>
-                                    <Col xl={12} bg="danger" >
+                                    <Col xl={12}>
                                         <Row>
                                             <Col xl={12}>
                                                 <Image fluid src={require("../../components/images/mandala.png")} alt="oceanMandala" />
