@@ -1,3 +1,11 @@
-#navButtons {
-    color: red;
+.nav-link {
+    color: green !important;
+}
+
+.dropdown-item {
+    color: purple !important;
+}
+
+.dropdown-menu {
+    background: none !important;
 }
