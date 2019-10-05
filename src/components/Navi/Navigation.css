@@ -36,3 +36,14 @@
     border-right: 1px black solid;
     border-left: 1px black solid;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #navButtons {
+        border-right: none;
+    }
+    
+    #navButtonsIllustrations {
+        border-right: none;
+        border-left: none;
+    }
+  }

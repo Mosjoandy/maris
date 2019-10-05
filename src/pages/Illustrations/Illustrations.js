@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
+import "./Illustrations.css";
 
 class Illustrations extends Component {
     render() {
@@ -16,15 +17,17 @@ class Illustrations extends Component {
                                                 <Image fluid src={require("../../components/images/illustration1.jpg")} alt="grassyRobo" />
                                             </Col>
                                             <Col xl={6}>
-                                                <h1> A Girl and her Golem</h1>
-                                                <p>
+
+                                                <h1 style={{margin:"0 0 20px 0"}}><b>A Girl and her Golem</b></h1>
+
+                                                <p id="illustrationBody">
                                                     This project started off as a personal project I did on the side. Once I took a digital painting class geared towards visual development, I really started to develop the character designs and the story more.
-                                        </p>
+                                                </p>
                                             </Col>
                                         </Row>
                                     </Col>
                                 </Row>
-
+                                <div style={{ margin: "25px 0 25px 0" }}></div>
                                 <Row>
                                     <Col xl={12}>
                                         <Row>
@@ -34,7 +37,7 @@ class Illustrations extends Component {
                                         </Row>
                                     </Col>
                                 </Row>
-
+                                <div style={{ margin: "25px 0 25px 0" }}></div>
                                 <Row>
                                     <Col xl={12}>
                                         <Row>
@@ -44,7 +47,7 @@ class Illustrations extends Component {
                                         </Row>
                                     </Col>
                                 </Row>
-
+                                <div style={{ margin: "25px 0 25px 0" }}></div>
                                 <Row>
                                     <Col xl={12}>
                                         <Row>

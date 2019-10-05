@@ -3,3 +3,10 @@
     padding: 50px 0 25px 0;
     background-color: #CAE9BD;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+   #topper {
+       padding: 15px 0 10px 0;
+       font-size: 20px;
+   }
+  }

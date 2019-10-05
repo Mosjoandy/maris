@@ -1,19 +1,11 @@
-#homeiFrame {
-    margin-top: 30px;
-}
-
-#homeBody {
+#illustrationBody {
     font-size: 24px;
-    padding-top: 30px;
+    padding-top: 25px;
     background-color: #F0BDC6;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    #homeBody {
+    #illustrationBody {
         font-size: 16px;
-    }
-
-    #homeiFrame {
-        margin-top: 5px;
     }
   }

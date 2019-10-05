@@ -1,15 +1,17 @@
-.carousel-control-next-icon {
-    filter: invert(150%);
-}
+#foodieCatsHeader {
+    background-color: #F0BDC6;
+    border-bottom: none !important;
+    padding-top: 30px;  
+};
 
-.carousel-control-prev-icon {
-    filter: invert(150%);
-}
+#foodieCatsBody {
+    font-size: 24px;
+    padding-top: 30px;
+    background-color: #F0BDC6;
+};
 
-.carousel-indicators li {
-    filter: invert(150%);  
-}
-
-.carousel-indicators .active {
-    filter: invert(150%);
-}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #foodieCatsBody {
+        font-size: 16px;
+    };
+  };

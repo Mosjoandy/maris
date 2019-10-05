@@ -3,17 +3,17 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import './FoodieCats.css'
 
 
-class Animations extends Component {
+class FoodieCats extends Component {
     render() {
         return (
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col xl={8}>
-                        <Card bg="light" className="text-center">
-                            <Card.Header>
-                                <h1>Foodie Cats</h1>
+                    <Col xl={12}>
+                        <Card className="text-center">
+                            <Card.Header id="foodieCatsHeader">
+                                <h1><b>Foodie Cats</b></h1>
                             </Card.Header>
-                            <Card.Body>
+                            <Card.Body id="foodieCatsBody">
                                 <h4> I animated several shots on this project. It was animated in Adobe Animate and is the first animated short of the Junior Giant Foodiecats series to be made in 2D.</h4>
                             </Card.Body>
                             <Card.Body>
@@ -24,9 +24,8 @@ class Animations extends Component {
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
                                 </iframe>
-                                <br />
-                                <br />
-
+                                
+                                <div style={{ margin: "25px 0 25px 0" }}></div>
                                 <iframe
                                     className="iFrameAnimations"
                                     title="foodieCats2"
@@ -34,9 +33,8 @@ class Animations extends Component {
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
                                 </iframe>
-                                <br />
-                                <br />
-
+                                
+                                <div style={{ margin: "25px 0 25px 0" }}></div>
                                 <iframe
                                     className="iFrameAnimations"
                                     title="foodieCats3"
@@ -44,9 +42,8 @@ class Animations extends Component {
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
                                 </iframe>
-                                <br />
-                                <br />
-
+                                
+                                <div style={{ margin: "25px 0 25px 0" }}></div>
                                 <iframe
                                     className="iFrameAnimations"
                                     title="foodieCats4"
@@ -54,9 +51,8 @@ class Animations extends Component {
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
                                 </iframe>
-                                <br />
-                                <br />
-
+                                
+                                <div style={{ margin: "25px 0 25px 0" }}></div>
                                 <iframe
                                     className="iFrameAnimations"
                                     title="foodieCats5"
@@ -64,9 +60,8 @@ class Animations extends Component {
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
                                 </iframe>
-                                <br />
-                                <br />
-
+                                
+                                <div style={{ margin: "25px 0 25px 0" }}></div>
                                 <iframe
                                     className="iFrameAnimations"
                                     title="foodieCats6"
@@ -74,9 +69,8 @@ class Animations extends Component {
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
                                 </iframe>
-                                <br />
-                                <br />
-
+                                
+                                <div style={{ margin: "25px 0 25px 0" }}></div>
                                 <iframe
                                     className="iFrameAnimations"
                                     title="foodieCats7"
@@ -170,4 +164,4 @@ class Animations extends Component {
     };
 };
 
-export default Animations;
+export default FoodieCats;
