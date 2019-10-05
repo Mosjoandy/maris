@@ -7,16 +7,17 @@ class Home extends Component {
         return (
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col xl={8}>
-                        <Card bg="light" className="text-center">
-                            <Card.Body>
+                    <Col xl={12}>
+                        <Card className="text-center">
+                            <Card.Body id="homeBody">
                                 My name is Marisa Franco I am a 2D animator.
                                 <br />
                                 I also work in in 2D Layout and Character Design.
-                                    <iframe
+                                <iframe
                                     className="iFrameAnimations"
+                                    id="homeiFrame"
                                     title="homeVideo"
-                                    src="https://player.vimeo.com/video/336761792?title=0&byline=0&portrait=0"
+                                    src="https://player.vimeo.com/video/336761792?title=0&muted=1&autoplay=0&loop=0"
                                     frameBorder="0"
                                     allow="autoplay; fullscreen">
                                 </iframe>

@@ -1,11 +1,38 @@
 .nav-link {
-    color: green !important;
+    color:#ee3f6c !important;
+    padding: 0 40px 0 40px !important;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color:#74d0b6!important;
 }
 
 .dropdown-item {
-    color: purple !important;
+    color: #ee3f6c !important;
+    font-weight: bold;
+}
+
+.dropdown-item:hover{
+    color:#74d0b6 !important;
 }
 
 .dropdown-menu {
-    background: none !important;
+    background:  #CAE9BD !important;
+    border: none;
+    font-size: 20px;
+}
+
+.navigationText {
+    font-size: 20px;
+    padding: 0 0 50px 0;
+}
+
+#navButtons {
+    border-right: 1px black solid;
+}
+
+#navButtonsIllustrations {
+    border-right: 1px black solid;
+    border-left: 1px black solid;
 }

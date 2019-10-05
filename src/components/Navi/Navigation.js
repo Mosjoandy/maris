@@ -13,19 +13,19 @@ class Navigation extends Component {
                         <Nav activeKey="/home">
                             <Nav.Item id="nav-split">
                                 <Link to="/" id="navButtons" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
-                                    Home
+                                    HOME
                                 </Link>
                             </Nav.Item>
 
 
                             {/* Add drop down here */}
-                            <NavDropdown title="Animations" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="/animations">Animations
+                            <NavDropdown title="ANIMATIONS" id="collasible-nav-dropdown">
+                                <NavDropdown.Item href="/animations">ANIMATIONS
                                     {/* <Link to="/animations" id="navButtons" className={window.location.pathname === "/animations" ? "nav-link active" : "nav-link"}>
                                         Animations
                                     </Link> */}
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/FoodieCats">FoodieCats
+                                <NavDropdown.Item href="/FoodieCats">FOODIECATS
                                     {/* <Link to="/animations" id="navButtons" className={window.location.pathname === "/animations" ? "nav-link active" : "nav-link"}>
                                         Animations
                                     </Link> */}
@@ -33,20 +33,20 @@ class Navigation extends Component {
                             </NavDropdown>
 
                             <Nav.Item>
-                                <Link to="/illustrations" id="navButtons" className={window.location.pathname === "/illustrations" ? "nav-link active" : "nav-link"}>
-                                    Illustrations
+                                <Link to="/illustrations" id="navButtonsIllustrations" className={window.location.pathname === "/illustrations" ? "nav-link active" : "nav-link"}>
+                                    ILLUSTRATIONS
                                 </Link>
                             </Nav.Item>
 
                             <Nav.Item>
                                 <Link to="/about" id="navButtons" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
-                                    About
+                                    ABOUT
                                 </Link>
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Link to="/contact" id="navButtons" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-                                    Contact
+                                <Link to="/contact" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                                    CONTACT
                                 </Link>
                             </Nav.Item>
 

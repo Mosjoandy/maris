@@ -1,16 +1,11 @@
-.homeVideoEmbed {
-    padding: 56.25%;
-    position: relative;
-    height: 500px;
-    width: 500px;
-};
+#homeiFrame {
+    margin-top: 30px;
+}
 
-.homeVideoiframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+#homeBody {
+    font-size: 24px;
+    padding-top: 30px;
+    background-color: #F0BDC6;
 }
 
 @media (min-width: 768px){

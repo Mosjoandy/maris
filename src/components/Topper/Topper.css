@@ -1,4 +1,5 @@
-#nav-split {
-    border-right: 1px;
-    border-color: black;
-};
+#topper {
+    color: #ee3f6c !important;
+    padding: 50px 0 25px 0;
+    background-color: #CAE9BD;
+}
