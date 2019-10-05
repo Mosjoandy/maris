@@ -13,6 +13,7 @@ import Contact from "./pages/Contact/Contact";
 //Components
 import Topper from "./components/Topper/Topper";
 import Navigation from "./components/Navi/Navigation";
+import Footer from "./components/Footer/Footer";
 
 class App extends React.Component {
 
@@ -31,6 +32,7 @@ class App extends React.Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
+          <Footer />
         </div>
       </Router>
     );

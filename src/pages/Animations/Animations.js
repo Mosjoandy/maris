@@ -8,7 +8,7 @@ class Animations extends Component {
             <Container>
                 <Row className="justify-content-md-center">
                     <Col xl={12}>
-                        <Card bg="light" className="text-center">
+                        <Card className="text-center">
                             <Card.Header id="animationsHeader">
                                 <h1><b>Animations</b></h1>
                             </Card.Header>

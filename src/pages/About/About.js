@@ -1,26 +1,34 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Card, Image, ListGroup } from 'react-bootstrap';
+import { Container, Row, Col, Card, Image } from 'react-bootstrap';
+import "./About.css";
 
 class About extends Component {
     render() {
         return (
             <Container>
                 <Row>
-                    <Col xl={5}>
-                        <Card bg="danger" className="text-center">
-                            <Card.Body>
-                                <Image fluid src={require("../../components/images/portrait.jpg")} alt="soFancyTho" />
+                    <Col xl={12}>
+                        <Card className="text-center" style={{ borderBottom: "5px dashed #F0BDC6", backgroundColor:"#CAE9BD", marginBottom:"25px" }}>
+                            <h1><b>About Me</b></h1>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xl={5} >
+                        <Card className="text-center">
+                            <Card.Body id="aboutBG">
+                                <Image style={{ border: "1px black solid" }} fluid src={require("../../components/images/portrait.jpg")} alt="soFancyTho" />
                             </Card.Body>
                         </Card>
                     </Col>
 
                     <Col xl={7}>
-                        <Card bg="success" className="text-left">
-                            <Card.Body>
+                        <Card className="text-left">
+                            <Card.Body id="aboutBG">
                                 <p>My name is Marisa Franco. I am a 2D animator. I'm from northern California and I've loved drawing since the little switch in my brain flipped on. I've had a death grip on a pencil for as long as I remember and drew constantly as a kid and never stopped.</p>
                                 <p>Growing up I watched my fair share of Looney Tunes and other older classics like the Flintstones, The Jetsons, Tom and Jerry, and so many more. It wasn't until my siblings started watching anime like Dragonball Z and Sailor Moon that I started  becoming curious about how these shows were made.</p>
                                 <p>Watching all of these awesome animations and it didn't even cross my mind that animation was a job that I could purse until I got to high school. Once I had that epiphany, I knew that was the only career path I wanted to follow for the rest of my life.</p>
-                                <h3>Resume Download</h3>
+                                <h3 style={{ borderTop: "5px dashed #F0BDC6" }}>Resume Download</h3>
                                 <a
                                     target="_blank"
                                     href="Resume.pdf">
@@ -34,10 +42,10 @@ class About extends Component {
                 <Row>
                     <Col xl={12}>
                         <Card>
-                            <Card.Header>
-                                Abilities
-                        </Card.Header>
-                            <Card.Body>
+                            <Card.Header style={{ borderBottom: "5px dashed #F0BDC6" }} id="aboutBG">
+                                <h1><b>Abilities</b></h1>
+                            </Card.Header>
+                            <Card.Body id="aboutBG">
                                 <ul>
                                     <li>Traditional Animation</li>
                                     <li>Puppet Animation</li>
@@ -55,59 +63,51 @@ class About extends Component {
                 <Row>
                     <Col xl={12}>
                         <Card>
-                            <Card.Header>
-                                Experience
-                        </Card.Header>
-                            <Card.Body>
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item><h2>Studio X: Academy of Art University</h2>
-                                        <h4>Animator</h4>
-                                        <p>Foodiecats - Animated 2D puppet Short</p>
-                                        <ul>
-                                            <li>Manipulated puppet animation in Adobe Acrobat</li>
-                                            <li>Praised by employer for good work ethic</li>
-                                        </ul>
-                                        <h4>Colorist</h4>
-                                        <p>Ribbon - Animated 2D short</p>
-                                        <ul>
-                                            <li>Assisted with frame by frame coloring</li>
-                                        </ul>
-                                    </ListGroup.Item>
-                                </ListGroup>
+                            <Card.Header style={{ borderBottom: "5px dashed #F0BDC6" }} id="aboutBG">
+                                <h1><b>Experience</b></h1>
+                            </Card.Header>
+                            <Card.Body id="experienceBG">
+                                <h2><b>Studio X: Academy of Art University</b></h2>
+                                <h3>Animator</h3>
+                                <p><b>Foodiecats</b> - Animated 2D puppet Short</p>
+                                <ul>
+                                    <li>Manipulated puppet animation in Adobe Acrobat</li>
+                                    <li>Praised by employer for good work ethic</li>
+                                </ul>
+                                <h3>Colorist</h3>
+                                <p><b>Ribbon</b> - Animated 2D short</p>
+                                <ul>
+                                    <li>Assisted with frame by frame coloring</li>
+                                </ul>
+                            </Card.Body>
+                            <Card.Body id="experienceBG">
 
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item><h2>Academy of Art University</h2>
-                                        <h4>Animator</h4>
-                                        <p>Castle Blazers - Platform Racer Video Game</p>
-                                        <ul>
-                                            <li>Created running animation for player character </li>
-                                            <li>Created Sprite Sheets for player character</li>
-                                        </ul>
-                                    </ListGroup.Item>
-                                </ListGroup>
+                                <h2><b>Academy of Art University</b></h2>
+                                <h3>Animator</h3>
+                                <p><b>Castle Blazers</b> - Platform Racer Video Game</p>
+                                <ul>
+                                    <li>Created running animation for player character </li>
+                                    <li>Created Sprite Sheets for player character</li>
+                                </ul>
+                            </Card.Body>
+                            <Card.Body id="experienceBG">
 
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item><h2>Redbubble</h2>
-                                        <h4>Designer</h4>
-                                        <ul>
-                                            <li>Created designs to be sold as various merchandise such as t-shirts, bags, notebooks, etc</li>
-                                            <li>Communication with community</li>
-                                        </ul>
-                                    </ListGroup.Item>
-                                </ListGroup>
+                                <h2><b>Redbubble</b></h2>
+                                <h3>Designer</h3>
+                                <ul>
+                                    <li>Created designs to be sold as various merchandise such as t-shirts, bags, notebooks, etc</li>
+                                    <li>Communication with community</li>
+                                </ul>
+                            </Card.Body>
+                            <Card.Body id="experienceBG">
 
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item><h2>Teepublic</h2>
-                                        <h4>Designer</h4>
-                                        <ul>
-                                            <li>Created t-shirt designs</li>
-                                            <li>Learned how to network</li>
-                                            <li>Fair promotion of art alongside other artists </li>
-                                        </ul>
-                                    </ListGroup.Item>
-                                </ListGroup>
-
-
+                                <h2><b>Teepublic</b></h2>
+                                <h3>Designer</h3>
+                                <ul>
+                                    <li>Created t-shirt designs</li>
+                                    <li>Learned how to network</li>
+                                    <li>Fair promotion of art alongside other artists </li>
+                                </ul>
                             </Card.Body>
 
                         </Card>
