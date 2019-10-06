@@ -30,11 +30,11 @@ class ControlPanel extends Component {
         auth.signInWithPopup(provider)
             .then((result) => {
                 const user = result.user;
-                console.log(user);
+                // console.log(user);
                 this.setState({ user });
                 this.setState({ userName: user.displayName });
                 this.setState({ userID: user.uid });
-                if (this.state.userID === "aXKEZAlJKpdlb0wm1NWEFHHQgFh1") {
+                if (this.state.userID === "aYRGYqQ8pCweSVyR5AMuFSmtjk5w1") {
                     this.setState({ admin: true })
                 } else if (this.state.userID === "Gzeajq8T4oMyrkG3SBLBB9bOCAz1") {
                     this.setState({ admin: true })
