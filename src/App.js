@@ -9,6 +9,7 @@ import FoodieCats from "./pages/Animations/FoodieCats";
 import Illustrations from "./pages/Illustrations/Illustrations";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
+import ControlPanel from "./pages/ControlPanel/ControlPanel";
 
 //Components
 import Topper from "./components/Topper/Topper";
@@ -31,6 +32,7 @@ class App extends React.Component {
             <Route exact path="/illustrations" component={Illustrations} />
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/cp" component={ControlPanel} />
           </Switch>
           <Footer />
         </div>
