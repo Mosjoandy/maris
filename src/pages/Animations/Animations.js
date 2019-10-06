@@ -10,7 +10,7 @@ class Animations extends Component {
                     <Col xl={12}>
                         <Card className="text-center">
                             <Card.Header id="animationsHeader">
-                                <h1><b>Animations</b></h1>
+                                <h1><b>Personal Works</b></h1>
                             </Card.Header>
                             <Card.Body>
 

@@ -20,7 +20,7 @@ class Navigation extends Component {
 
                             {/* Add drop down here */}
                             <NavDropdown title="ANIMATIONS" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="/animations">ANIMATIONS
+                                <NavDropdown.Item href="/animations">PERSONAL WORKS
                                     {/* <Link to="/animations" id="navButtons" className={window.location.pathname === "/animations" ? "nav-link active" : "nav-link"}>
                                         Animations
                                     </Link> */}
