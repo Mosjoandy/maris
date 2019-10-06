@@ -12,7 +12,7 @@ class Home extends Component {
                             <Card.Body id="homeBody">
                                 My name is Marisa Franco I am a 2D animator.
                                 <br />
-                                I also work in in 2D Layout and Character Design.
+                                I also work in 2D Layout and Character Design.
                                 <iframe
                                     className="iFrameAnimations"
                                     id="homeiFrame"
