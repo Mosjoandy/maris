@@ -30,7 +30,7 @@ class ControlPanel extends Component {
         auth.signInWithPopup(provider)
             .then((result) => {
                 const user = result.user;
-                // console.log(user);
+                console.log(user);
                 this.setState({ user });
                 this.setState({ userName: user.displayName });
                 this.setState({ userID: user.uid });
