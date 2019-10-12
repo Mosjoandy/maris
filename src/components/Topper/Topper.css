@@ -1,12 +1,14 @@
 #topper {
     color: #ee3f6c !important;
-    padding: 50px 0 25px 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
     background-color: #CAE9BD;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
    #topper {
-       padding: 15px 0 10px 0;
+       padding-top: 15px;
+       padding-bottom: 10px;
        font-size: 20px;
    }
   }
