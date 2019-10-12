@@ -16,7 +16,7 @@ class Database extends Component {
         contact.on("value", (snapshot) => {
             let contact = snapshot.val();
             let newState = [];
-            for (let info in contact) {
+            for (var info in contact) {
                 newState.push({
                     id: info,
                     name: contact[info].name,

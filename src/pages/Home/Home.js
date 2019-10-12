@@ -17,7 +17,7 @@ class Home extends Component {
                                     className="iFrameAnimations"
                                     id="homeiFrame"
                                     title="homeVideo"
-                                    src="https://player.vimeo.com/video/336761792?title=0&muted=1&autoplay=0&loop=0"
+                                    src="https://player.vimeo.com/video/336761792?title=0&muted=1&autoplay=0&loop=0?dnt=1"
                                     frameBorder="0"
                                     allow="autoplay; fullscreen">
                                 </iframe>

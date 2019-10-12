@@ -14,11 +14,21 @@ class Animations extends Component {
                             </Card.Header>
                             <Card.Body>
 
+                                <iframe
+                                    className="iFrameAnimations"
+                                    title="animations3"
+                                    src="https://player.vimeo.com/video/364667467?title=0?dnt=1"
+                                    frameBorder="0"
+                                    allow="autoplay; fullscreen">
+                                </iframe>
+
+                                <div style={{ margin: "25px 0 25px 0" }}></div>
+
                                 <Image width="100%" height="100%" fluid src={require("../../components/images/gastlySurprise.gif")} alt="pokemonGastly" />
 
 
                                 <div style={{ margin: "25px 0 25px 0" }}></div>
-                                
+
                                 <iframe
                                     className="iFrameAnimations"
                                     title="animations1"
