@@ -26,8 +26,8 @@ class About extends Component {
                         <Card className="text-left">
                             <Card.Body id="aboutBG">
                                 <p>My name is Marisa Franco. I am a 2D animator. I'm from Northern California and I've loved drawing since the little switch in my brain flipped on. I've had a death grip on a pencil for as long as I can remember and drew constantly as a kid, continuing as I grew up.</p>
-                                <p>Growing up I watched my fair share of Looney Tunes and other older classics like the Flintstones, The Jetsons, Tom and Jerry, and so many more. It wasn't until my siblings started watching anime like Dragonball Z and Sailor Moon that I started  becoming curious about how these shows were made.  </p>
-                                <p>Watching all of these awesome animations and it didn't even cross my mind that animation was a job that I could purse until I got to high school. Once I had that epiphany, I knew that was the only industry I wanted to be apart of for the rest of my life.</p>
+                                <p>Growing up I watched my fair share of Looney Tunes and other older classics like the Flintstones, The Jetsons, Tom and Jerry, and so many more. It wasn't until my siblings started watching anime like Dragonball Z and Sailor Moon that I started  becoming curious about how these shows were made.</p>
+                                <p>Watching all of these awesome animations and it didn't even cross my mind that animation was a job that I could pursue until I got to high school. Once I had that epiphany, I knew that was the only industry I wanted to be a part of for the rest of my life.</p>
                                 <h3 style={{ borderTop: "5px dashed #F0BDC6" }}>Resume Download</h3>
                                 <a
                                     target="_blank"
